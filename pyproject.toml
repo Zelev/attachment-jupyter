@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "attachment_jupyter"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 jupyterlab = "^4.1.1"
 vosk = "^0.3.45"
 notebook = "^7.1.0"
@@ -16,6 +16,8 @@ mysql-connector-python = "^8.3.0"
 azure-storage-blob = "^12.19.0"
 azure-identity = "^1.15.0"
 python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+matplotlib = "^3.8.4"
 
 
 [build-system]

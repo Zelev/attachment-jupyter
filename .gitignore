@@ -114,3 +114,4 @@ cython_debug/
 # results folders
 recordings/
 answers*.json
+raw_answers*.json
