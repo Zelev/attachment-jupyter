@@ -115,3 +115,6 @@ cython_debug/
 recordings/
 answers*.json
 raw_answers*.json
+
+# data 
+*.csv
