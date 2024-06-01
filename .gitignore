@@ -118,3 +118,4 @@ raw_answers*.json
 
 # data 
 *.csv
+*.zip

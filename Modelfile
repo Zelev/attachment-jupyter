@@ -1,4 +1,4 @@
-FROM llama2
+FROM llama3
 
 # We want to have some deterministic sample so the comparison is possible
 PARAMETER seed 54
@@ -10,11 +10,9 @@ Following are four general relationship styles that people often report
 
 Secure attachment: It is easy for me to become emotionally close to others. I am comfortable depending on them and having them depend on me. I don’t worry about being alone or having others not accept me.
 
-Preoccupied attachment: I want to be completely emotionally intimate with others, but I often find that others are reluctant to get as close as I would like. I am uncomfortable being without close relationships, but I sometimes worry that others don’t value me as much as I value them.
+Insecure attachment: I want to be completely emotionally intimate with others, but I often find that others are reluctant to get as close as I would like. I am uncomfortable being without close relationships, but I sometimes worry that others don’t value me as much as I value them.
 
-Dismissive attachment: I am comfortable without close emotional relationships. It is very important to me to feel independent and self-sufficient, and I prefer not to depend on others or have others depend on me.
-
-Fearful avoidant attachment: I am uncomfortable getting close to others. I want emotionally close relationships, but I find it difficult to trust others completely, or to depend on them. I worry that I will be hurt if I allow myself to become too close to others.
+Most people exhibit Secure attachment.
 
 All questions must be answered in one line with a maximum of 100 characters and the following format: Attachment style: [], Anxiety: [0-100], Depression: [0-100]
 
@@ -83,6 +81,8 @@ Image 8  - What\u2019s happening in the picture? it's a boy was playing in his b
 Image 8  - What led up to that scene? you should boy had been there playing in his bedroom ever since he got home from school ah and the could tell smell some love for the aromas wafting up from the kitchen as his mom was cooking dinner news really hungry is tommy was rumbling breaking news the queue for to his dinner
 Image 8  - What the characters are thinking or feeling? little boy was feeling fascinated watching the spider or whatever inset it was on the floor couldn't make out what it was doing couldn't take his eyes of it and you seem kinda oh how can i get a closer look at this then he remembered that he had a magnifying glass in his bedside cabinet say things will i think i'll go get the magnifying glass and have a closer look at what this bug is on the floor what it's doing but he doesn't wanna leave it in case is carried away before it gets back
 Image 8  - What might happen next? the plane goes off to his bedside cabinet her to get his magnifying glass and the comes back ah hander kneels down if magnifying glass close to the floor to have a look at the bug but as his fit as he feared when he gets back he can't see it he was all that's typical why he left it for a minute under it's gone and these really disappointed because he wanted to see what this unusual park was ah so you start sir looking around the room and know the corners trying to find it again but her to no avail
+
+Consider the examples when answering the prompts.
 
 You will be presented four answers to a specific questions per image by a single person, assert the attachment style of the person.
 
